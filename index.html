@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Setting</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+</head>
+
+<body>
+
+    <div class="setting-container">
+
+
+        <h2 class="title">setting</h2>
+
+        <div class="check-box-group">
+
+            <div>
+                <label for="darkmode">dark mode</label>
+                <label for="darkmode" class="toggle-button">
+                    <input type="checkbox" name="darkmode" id="darkmode" class="checkbox" checked />
+                    <span class="circle "></span>
+                </label>
+            </div>
+            <div>
+                <label for="desktopnoti">desktop notifications</label>
+                <label for="desktopnoti" class="toggle-button">
+                    <input type="checkbox" name="desktopnoti" id="desktopnoti" class="checkbox" />
+                    <span class="circle"></span>
+                </label>
+            </div>
+            <div>
+                <label for="focusedbox">focused inbox</label>
+                <label for="focusedbox" class="toggle-button">
+                    <input type="checkbox" name="focusedbox" id="focusedbox" class="checkbox" />
+                    <span class="circle"></span>
+                </label>
+            </div>
+
+        </div>
+
+
+        <div class="option-group">
+            <h4>conversation view</h4>
+            <div class="options">
+                <div>
+                    <input type="radio" name="conversation" id="top" class="radio" />
+                    <label for="top">newest on top</label>
+                </div>
+                <div>
+                    <input type="radio" name="conversation" id="bottom" class="radio" />
+                    <label for="bottom">newest on bottom</label>
+                </div>
+                <div>
+                    <input type="radio" name="conversation" id="off" class="radio" />
+                    <label for="off">off</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="option-group">
+            <h4>reading panel</h4>
+           <div class="options">
+                <div>
+                    <input type="radio" name="reading" id="right" class="radio" />
+                    <label for="right">show on the right</label>
+                </div>
+                <div>
+                    <input type="radio" name="reading" id="s-bottom" class="radio" />
+                    <label for="s-bottom">show on the bottom</label>
+                </div>
+                <div>
+                    <input type="radio" name="reading" id="hide" class="radio" />
+                    <label for="hide">hide</label>
+                </div>
+           </div>
+        </div>
+
+        <a href="#">View all settings</a>
+
+
+    </div>
+
+    <script src="./js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
